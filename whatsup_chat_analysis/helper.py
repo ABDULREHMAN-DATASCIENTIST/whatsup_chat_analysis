@@ -5,7 +5,8 @@ from collections import Counter
 import emoji
 import seaborn as sns
 import re
-
+from io import BytesIO
+from reportlab.pdfgen import canvas
 
 extract = URLExtract()
 
