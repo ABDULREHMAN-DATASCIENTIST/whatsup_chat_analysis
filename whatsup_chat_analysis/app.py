@@ -4,6 +4,11 @@ import helper
 import matplotlib.pyplot as plt
 import seaborn as sns
 from wordcloud import WordCloud
+try:
+    from urlextract import URLExtract
+except ImportError:
+    st.error("The 'urlextract' module is not installed. Please install it using 'pip install urlextract'.")
+    st.stop()
 
 st.sidebar.title("Whatsapp Chat Analyzer")
 
