@@ -13,7 +13,7 @@ Make shure all Almost All these libraries are installed in your pycharm Terminal
 7-Repportlab(pip install reportlab)
 8-Wordcount(pip install wordcloud)
 9-For URLS(pip install urlextract)
-
+10-To extract urls(pip install urlextract)
 then write below command in terminal  
 
 streamlit run app.py
